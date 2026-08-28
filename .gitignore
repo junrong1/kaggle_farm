@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Editors / local tooling
+.idea/
+.claude/settings.local.json
+
+# Large competition data (13G of episode dumps)
+data/episodes/
+
+# Generated render output (~19MB)
+render.html
+
+data
+
+kaggriculture-getting-started.ipynb
+
+.claude
+
+AGENTS.md
+
+/.python-version

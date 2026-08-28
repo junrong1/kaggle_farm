@@ -1,0 +1,17 @@
+[project]
+name = "kaggle-farm"
+version = "0.1.0"
+description = "Kaggriculture competition agent development"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "kaggle-environments>=1.32.2",
+    "kaggle>=1.6",
+    "numpy>=2.0",
+    "pandas>=2.2.3",
+    "matplotlib>=3.9",
+    "ipykernel>=6.29",
+    "jupyter>=1.1",
+]
+
+[tool.uv]
+package = false
